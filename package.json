@@ -1,0 +1,23 @@
+{
+  "name": "randombeybladegenerator",
+  "version": "0.1.0",
+  "description": "Generates a random beyblade based on a database",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tokanada/RandomBeybladeGenerator.git"
+  },
+  "keywords": [
+    "beyblade",
+    "generator"
+  ],
+  "author": "tokanada (David Tao)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tokanada/RandomBeybladeGenerator/issues"
+  },
+  "homepage": "https://github.com/tokanada/RandomBeybladeGenerator#readme"
+}

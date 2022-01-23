@@ -1,0 +1,15 @@
+Name,Weight(g),Rating(out of 3),Mode Change,Modes,Generation,Requires Specific Fusion,Required Fusion,Clone,Spin Direction,Synergies,Attack,Defense,Stamina,Class
+Quetzalcoatl,2,1,F,,4D,F,,T,"[Left, Right]",[Death],0,1,1,[Stamina]
+Perseus,2,1,T,"[Counter, Defense]",Classic SM,T,Gravity,T,"[Left, Right]",[Gravity],1,1,0,"[Attack, Defense, Stamina]"
+Pegasus III,2,1,F,,4D,F,,T,"[Left, Right]","[Storm, Galaxy, Big Bang]",1,0,1,"[Attack, Defense, Stamina]"
+Pegasus III,3,2,F,,4D,F,,F,[Right],"[Storm, Galaxy, Big Bang]",1,0,1,"[Attack, Defense, Stamina]"
+Pegasus II,3,2,F,,Classic SM,F,,T,[Right],"[Storm, Galaxy, Big Bang]",1,0,1,"[Attack, Defense, Stamina]"
+Capricorn,3,2,F,,Classic SM,F,,F,[Right],[Storm],1,0,1,"[Attack, Defense, Stamina]"
+Hades,3,2,F,,4D,F,,T,"[Left, Right]",[Fusion],1,0,1,"[Attack, Defense, Stamina]"
+Kerbecs,3,2,F,,Classic LG,F,,F,[Right],[Hell],1,0,1,"[Attack, Defense, Stamina]"
+Libra,3,2,F,,Classic SM,F,,T,[Right],[Flame],1,0,1,"[Attack, Defense, Stamina]"
+Saggitario II,3,2,F,,4D,F,,F,[Right],"[Flash, Flame, Inferno]",1,0,1,"[Attack, Defense, Stamina]"
+Unicorno II,3,2,F,,4D,F,,T,"[Left, Right]",[Blitz],1,0,1,"[Attack, Defense, Stamina]"
+Variares,0,2,T,[Automatically Switches between Attack and Defense],4D,T,Variares,F,"[Left, Right]",[Variares],1,1,0,"[Attack, Defense, Stamina]"
+Cancer,4,3,F,,Classic SM,F,,F,[Right],[Inferno],1,1,1,"[Attack, Defense, Stamina]"
+Nemesis,4,3,F,,4D,F,,F,[Right],[Diablo],1,1,1,"[Attack, Defense, Stamina]"
