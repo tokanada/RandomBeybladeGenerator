@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/tokanada/RandomBeybladeGenerator/issues"
   },
-  "homepage": "https://github.com/tokanada/RandomBeybladeGenerator#readme"
+  "homepage": "https://github.com/tokanada/RandomBeybladeGenerator#readme",
+  "dependencies": {
+    "autodetect-decoder-stream": "^2.0.2",
+    "csv-reader": "^1.0.8"
+  }
 }

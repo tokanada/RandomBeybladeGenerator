@@ -1,15 +1,15 @@
-Name,Weight(g),Rating(out of 3),Mode Change,Modes,Generation,Requires Specific Fusion,Required Fusion,Clone,Spin Direction,Synergies,Attack,Defense,Stamina,Class
-Quetzalcoatl,2,1,F,,4D,F,,T,"[Left, Right]",[Death],0,1,1,[Stamina]
-Perseus,2,1,T,"[Counter, Defense]",Classic SM,T,Gravity,T,"[Left, Right]",[Gravity],1,1,0,"[Attack, Defense, Stamina]"
-Pegasus III,2,1,F,,4D,F,,T,"[Left, Right]","[Storm, Galaxy, Big Bang]",1,0,1,"[Attack, Defense, Stamina]"
-Pegasus III,3,2,F,,4D,F,,F,[Right],"[Storm, Galaxy, Big Bang]",1,0,1,"[Attack, Defense, Stamina]"
-Pegasus II,3,2,F,,Classic SM,F,,T,[Right],"[Storm, Galaxy, Big Bang]",1,0,1,"[Attack, Defense, Stamina]"
-Capricorn,3,2,F,,Classic SM,F,,F,[Right],[Storm],1,0,1,"[Attack, Defense, Stamina]"
-Hades,3,2,F,,4D,F,,T,"[Left, Right]",[Fusion],1,0,1,"[Attack, Defense, Stamina]"
-Kerbecs,3,2,F,,Classic LG,F,,F,[Right],[Hell],1,0,1,"[Attack, Defense, Stamina]"
-Libra,3,2,F,,Classic SM,F,,T,[Right],[Flame],1,0,1,"[Attack, Defense, Stamina]"
-Saggitario II,3,2,F,,4D,F,,F,[Right],"[Flash, Flame, Inferno]",1,0,1,"[Attack, Defense, Stamina]"
-Unicorno II,3,2,F,,4D,F,,T,"[Left, Right]",[Blitz],1,0,1,"[Attack, Defense, Stamina]"
-Variares,0,2,T,[Automatically Switches between Attack and Defense],4D,T,Variares,F,"[Left, Right]",[Variares],1,1,0,"[Attack, Defense, Stamina]"
-Cancer,4,3,F,,Classic SM,F,,F,[Right],[Inferno],1,1,1,"[Attack, Defense, Stamina]"
-Nemesis,4,3,F,,4D,F,,F,[Right],[Diablo],1,1,1,"[Attack, Defense, Stamina]"
+Name,Weight(g),Quantity,Attack,Defense,Stamina,Class,Mode Change,Modes,Requires Specific Fusion,Required Fusion,Synergies,Spin Direction,Generation,Clone,Notes
+Quetzalcoatl,2,1,0,1,1,Stamina,false,,false,,Death,"Left,Right",4D,true,
+Perseus,2,1,1,1,0,"Attack,Defense,Stamina",true,"Counter,Defense",true,Gravity,Gravity,"Left,Right",Classic SM,true,Only works with Gravity Fusion Wheel
+Pegasus III,2,1,1,0,1,"Attack,Defense,Stamina",false,,false,,"Storm,Galaxy,Big Bang","Left,Right",4D,true,
+Pegasus III,3,1,1,0,1,"Attack,Defense,Stamina",false,,false,,"Storm,Galaxy,Big Bang",Right,4D,false,
+Pegasus II,3,1,1,0,1,"Attack,Defense,Stamina",false,,false,,"Storm,Galaxy,Big Bang",Right,Classic SM,true,
+Capricorn,3,1,1,0,1,"Attack,Defense,Stamina",false,,false,,Storm,Right,Classic SM,false,
+Hades,3,1,1,0,1,"Attack,Defense,Stamina",false,,false,,Fusion,"Left,Right",4D,true,
+Kerbecs,3,1,1,0,1,"Attack,Defense,Stamina",false,,false,,Hell,Right,Classic LG,false,
+Libra,3,1,1,0,1,"Attack,Defense,Stamina",false,,false,,Flame,Right,Classic SM,true,
+Saggitario II,3,1,1,0,1,"Attack,Defense,Stamina",false,,false,,"Flash,Flame,Inferno",Right,4D,false,
+Unicorno II,3,1,1,0,1,"Attack,Defense,Stamina",false,,false,,Blitz,"Left,Right",4D,true,
+Variares,0,1,1,1,0,"Attack,Defense,Stamina",false,,true,Variares,Variares,"Left,Right",4D,false,Only works with Variares Fusion Wheel
+Cancer,4,1,1,1,1,"Attack,Defense,Stamina",false,,false,,Inferno,Right,Classic SM,false,
+Nemesis,4,1,1,1,1,"Attack,Defense,Stamina",false,,false,,Diablo,Right,4D,false,

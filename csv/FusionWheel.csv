@@ -1,15 +1,15 @@
-Name,Weight (g),Attack,Defense,Stamina,Mode Change,Modes,Generation,Requires specific Ering,Required Ering,Clone,Class,Spin Direction,Synergies,Special Conditons
-Flame,27,0,0,4,F,,Classic SM,F,,T,Stamina,[Right],,
-Galaxy,29,4,1,0,F,,Classic SM,F,,T,Attack,[Right],,
-Storm,30,4,1,0,F,,Classic SM,F,,F,Attack,[Right],,
-Inferno,30,2,0,3,F,,Classic SM,F,,F,Stamina,[Right],,
-Gravity,35,4,4,1,F,,Classc SM,T,Perseus,T,Defense,"[Left, Right]",,
-Death,37,1,5,2,T,"[Attack, Defense]",4D,F,,T,Defense,"[Left, Right]",,
-Big Bang,38,5,2,1,T,"[Smash, All-purpose, Barrage, Upper Smash]",4D,F,,T,Attack,"[Left, Right]",,
-Big Bang,38,5,2,1,T,"[Smash, All-purpose, Barrage, Upper Smash]",4D,F,,F,Attack,[Right],,
-Hell,39,4,2,4,F,,Classic LG,F,,F,Balance,[Right],[BD145],"if (track = 'bd145') { 'attack' = 2, 'defense' = 3, 'stamina' = 6 }"
-Blitz,40,6,1,1,T,"[Smash, Barrage]",4D,F,,T,Attack,"[Left, Right]",,
-Variares,41,6,1,0,F,,4D,T,Variares,F,Attack,"[Left, Right]",,
-Fusion,41,0,5,5,T,"[Defense, Balance]",4D,F,,T,Balance,"[Left, Right]",[85XF],"if (spin = 'right) { 'attack' = 2, 'defense' = 3, 'stamina' = 2 }, elif (spin = left) { 'attack' = 0, 'defense' = 5, 'stamina' = 6 }"
-Flash,41,6,1,3,T,"[Attack, Stamina]",4D,F,,F,Balance,[Right],,"if (mode = 'attack') { 'attack' = 6, 'defense' = 0, 'stamina' = 3 }, elif (mode = 'stamina') { 'attack' = 2, 'defense' = 4, 'stamina' = 4 }"
-Diablo,52,5,5,4,T,"[Attack, Ultimate Balance]",4D,F,,F,Balance,[Right],[X:D],if (track != 'x:d') { 'ultimate balance mode' = disabled}
+Name,Weight (g),Quantity,Attack,Defense,Stamina,Class,Mode Change,Modes,Requires specific Ering,Required Ering,Synergies,Spin Direction,Generation,Clone,Special Conditons
+Flame,27,1,0,0,4,Stamina,false,,false,,,Right,Classic SM,true,
+Galaxy,29,1,4,1,0,Attack,false,,false,,,Right,Classic SM,true,
+Storm,30,1,4,1,0,Attack,false,,false,,,Right,Classic SM,false,
+Inferno,30,1,2,0,3,Stamina,false,,false,,,Right,Classic SM,false,
+Gravity,35,1,4,4,1,Defense,false,,true,Perseus,,"Left,Right",Classc SM,true,
+Death,37,1,1,5,2,Defense,true,"Attack,Defense",false,,,"Left,Right",4D,true,
+Big Bang,38,1,5,2,1,Attack,true,"Smash,All-Purpose,Barrage,Upper Smash",false,,,"Left,Right",4D,true,
+Big Bang,38,1,5,2,1,Attack,true,"Smash,All-Purpose,Barrage,Upper Smash",false,,,Right,4D,false,
+Hell,39,1,4,2,4,Balance,false,,false,,BD145,Right,Classic LG,false,"if (track = 'bd145') { 'attack' = 2, 'defense' = 3, 'stamina' = 6 }"
+Blitz,40,1,6,1,1,Attack,true,"Smash,Barrage",false,,,"Left,Right",4D,true,
+Variares,41,1,6,1,0,Attack,false,,true,Variares,,"Left,Right",4D,false,
+Fusion,41,1,0,5,5,Balance,true,"Defense,Balance",false,,85XF,"Left,Right",4D,true,"if (spin = 'right) { 'attack' = 2, 'defense' = 3, 'stamina' = 2 }, elif (spin = left) { 'attack' = 0, 'defense' = 5, 'stamina' = 6 }"
+Flash,41,1,6,1,3,Balance,true,"Attack,Stamina",false,,,Right,4D,false,"if (mode = 'attack') { 'attack' = 6, 'defense' = 0, 'stamina' = 3 }, elif (mode = 'stamina') { 'attack' = 2, 'defense' = 4, 'stamina' = 4 }"
+Diablo,52,1,5,5,4,Balance,true,"Attack,Ultimate Balance",false,,X:D,Right,4D,false,if (track != 'x:d') { 'ultimate balance mode' = disabled}

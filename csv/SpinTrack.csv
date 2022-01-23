@@ -1,22 +1,22 @@
-Name,Full Name,Height,Weight(g),Attack,Defense,Stamina,Special Pairing,Generation ,Mode Changing,Modes,Accepts Tip,Custom,Quantity,Notes,Special Conditions
-W105,Wing 105,105,1,2,1,0,,Classic,F,,T,F,2,,
-D125,Defense 125,125,2,2,2,1,,Classic,F,,T,F,2,,
-T125,Tornado 125,125,2,2,2,1,,Classic,F,,T,F,1,,
-AD145,Armor Defense 145,145,3,2,2,2,,Classic,F,,T,F,1,,
-BD145,Boosted Disk 145,145,7,0,4,2,[Hell],Classic,T,"[Normal, Boost]",T,F,1,Round disk used to increase stamina or attack. Boost Mode only available when paired with 'Hell',if (fusionWheel = 'hell) { allowBoost = True }
-D:D,Delta Drive,145,5,5*,5*,5*,,4D,T,"[Attack, Defense, Stamina]",F,F,1,Changes between 3 tips,"if (mode = 'attack') { attack = 5, defense = 1, stamina = 2 }, elif (mode = 'defense') { attack = 1, defense = 5, stamina = 3 }, elif (mode = 'stamina') { attack = 0, defense = 1, stamina = 5 }"
-F:D,Final Drive,145,6,5,2,2,,4D,T,[Final Drive],F,F,1,Tip automatically switches from SF to RHF when low stamina,
-M145,Move 145,145,4,3,0,-2,[Quake],Classic,T,"[Low Bounce, High Bounce]",T,F,1,Jumps,
-SW145,Switch 145,145,3,2,2,0,,Classic,T,"[Attack, Defense]",T,F,1,Switchable directional blades,
-XM145,Xtreme Move 145,145,4,3,0,-2,[Quake],Classic,F,,T,T,1,Jumps,
-X:D,X Drive,175,8,5*,5*,5*,[Diablo],4D,T,"[Attack, Defense, Stamina]",F,F,1,"Changes tips between, XF, SF, and S. Paired with Diablo unlocks auto mode changes","if (mode = 'attack') { attack = 6, defense = 1, stamina = 2 }, elif (mode = 'defense') { attack = 2, defense = 5, stamina = 3 }, elif (mode = 'stamina') { attack = 2, defense = 2, stamina = 5 }"
-BD185,Boosted Disk 185,185,7,0,4,4,,Classic,F,,T,T,1,Round disk used to increase stamina and defense,
-70,70,70,0,1,1,0,,Classic,F,,T,T,1,Unofficial,
-85,85,85,1,1,1,0,,Classic,F,,T,T,3,,
-105,105,105,1,1,1,0,,Classic,F,,T,T,2,,
-125,125,125,2,1,1,1,,Classic,F,,T,T,3,,
-135,135,135,2,1,1,1,,Classic,F,,T,T,1,,
-145,145,145,3,1,1,1,,Classic,F,,T,T,1,,
-230,230,230,4,0,2,2,[Wide Defense],Classic,F,,T,T,2,,
-230,230,230,4,0,2,2,[Wide Defense],Classic,F,,T,F,1,,
-300,300,300,4,0,2,1,[Wide Defense],Classic,F,,T,T,3,Unofficial,
+Name,Full Name,Height,Quantity,Weight(g),Attack,Defense,Stamina,Class,Mode Changing,Modes,Synergies,Generation ,Custom,Accepts Tip,Notes,Special Conditions
+W105,Wing 105,105,2,1,2,1,0,Attack,false,,,Classic,false,true,,
+D125,Defense 125,125,2,2,2,2,1,Attack,false,,,Classic,false,true,,
+T125,Tornado 125,125,1,2,2,2,1,Attack,false,,,Classic,false,true,,
+AD145,Armor Defense 145,145,1,3,2,2,2,"Attack,Defense,Stamina",false,,,Classic,false,true,,
+BD145,Boosted Disk 145,145,1,7,0,4,2,"Defense,Stamina",true,Normal,,Classic,false,true,Round disk used to increase stamina or attack. Boost Mode only available when paired with 'Hell',if (fusionWheel = 'hell) { allowBoost = True }
+D:D,Delta Drive,145,1,5,5,5,5,"Attack,Defense,Stamina",true,"Attack,Defense,Stamina",,4D,false,false,Changes between 3 tips,"if (mode = 'attack') { attack = 5, defense = 1, stamina = 2 }, elif (mode = 'defense') { attack = 1, defense = 5, stamina = 3 }, elif (mode = 'stamina') { attack = 0, defense = 1, stamina = 5 }"
+F:D,Final Drive,145,1,6,5,2,2,Attack,true,Final Drive,,4D,false,false,Tip automatically switches from SF to RHF when low stamina,
+M145,Move 145,145,1,4,3,0,-2,Attack,true,"Low Bounce,High Bounce",Q,Classic,false,true,Jumps,
+SW145,Switch 145,145,1,3,2,2,0,"Attack,Defense",true,"Attack,Defense",,Classic,false,true,Switchable directional blades,
+XM145,Xtreme Move 145,145,1,4,3,0,-2,Attack,false,,Q,Classic,true,true,Jumps,
+X:D,X Drive,175,1,8,5,5,5,"Attack,Defense,Stamina",true,"Attack,Defense,Stamina",,4D,false,false,"Changes tips between, XF, SF, and S. Paired with Diablo unlocks auto mode changes","if (mode = 'attack') { attack = 6, defense = 1, stamina = 2 }, elif (mode = 'defense') { attack = 2, defense = 5, stamina = 3 }, elif (mode = 'stamina') { attack = 2, defense = 2, stamina = 5 }"
+BD185,Boosted Disk 185,185,1,7,0,4,4,"Defense,Stamina",false,,,Classic,true,true,Round disk used to increase stamina and defense,
+70,70,70,1,0,1,1,0,Attack,false,,,Classic,true,true,Unofficial,
+85,85,85,3,1,1,1,0,Attack,false,,,Classic,true,true,,
+105,105,105,2,1,1,1,0,Attak,false,,,Classic,true,true,,
+125,125,125,3,2,1,1,1,Attack,false,,,Classic,true,true,,
+135,135,135,1,2,1,1,1,Attack,false,,,Classic,true,true,,
+145,145,145,1,3,1,1,1,"Attack,Defense,Stamina",false,,,Classic,true,true,,
+230,230,230,2,4,0,2,2,"Defense,Stamina",false,,WD,Classic,true,true,,
+230,230,230,1,4,0,2,2,"Defense,Stamina",false,,WD,Classic,false,true,,
+300,300,300,3,4,0,2,1,"Defense,Stamina",false,,WD,Classic,true,true,Unofficial,

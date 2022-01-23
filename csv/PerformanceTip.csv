@@ -1,17 +1,17 @@
-Name,Full Name,Weight(g),Attack,Defense,Stamina,Class,Quantity,Custom,Notes
-B,Ball,1,1,2,3,Defense,6,T,
-CS,Coated Spike,1,2,3,3,Defense,2,T,
-RB,Rubber Ball,1,2,5,1,Defense,2,T,
-RDF,Rubber Defense Flat,1,1,6,3,Defense,1,T,
-RS,Rubber Sharp,1,1,6,2,Defense,2,T,
-D,Defense,1,0,0,5,Stamina,1,T,
-DS,Defense Spike,1,1,1,5,Stamina,1,T,
-S,Sharp,1,0,0,5,Stamina,1,T,
-RWD,Rubber Wide Defense,1,1,1,4,Stamina,1,T,
-WD,Wide Defense,1,1,1,5,Stamina,4,T,
-Q,Quake,1,4,0,0,Attack ,2,T,
-cR2F,Cut Right Rubber Flat,1,7,3,0,Attack,2,T,A more controlled R2F
-R2F,Right Rubber Flat,1,7,3,0,Attack,1,T,Aggressive tip. Trading stamina for pure offense
-RF,Rubber Flat,1,6,3,0,Attack,1,T,
-SF,SemiFlat,1,3,0,3,Attack,1,T,
-XF,Xtreme Flat,1,5,0,2,Attack,1,T,
+Name,Full Name,Weight(g),Quantity,Attack,Defense,Stamina,Class,Custom,Notes
+B,Ball,1,6,1,2,3,Defense,true,
+CS,Coated Spike,1,2,2,3,3,Defense,true,
+RB,Rubber Ball,1,2,2,5,1,Defense,true,
+RDF,Rubber Defense Flat,1,1,1,6,3,Defense,true,
+RS,Rubber Sharp,1,2,1,6,2,Defense,true,
+D,Defense,1,1,0,0,5,Stamina,true,
+DS,Defense Spike,1,1,1,1,5,Stamina,true,
+S,Sharp,1,1,0,0,5,Stamina,true,
+RWD,Rubber Wide Defense,1,1,1,1,4,Stamina,true,
+WD,Wide Defense,1,4,1,1,5,Stamina,true,
+Q,Quake,1,2,4,0,0,Attack ,true,
+cR2F,Cut Right Rubber Flat,1,2,7,3,0,Attack,true,A more controlled R2F
+R2F,Right Rubber Flat,1,1,7,3,0,Attack,true,Aggressive tip. Trading stamina for pure offense
+RF,Rubber Flat,1,1,6,3,0,Attack,true,
+SF,SemiFlat,1,1,3,0,3,Attack,true,
+XF,Xtreme Flat,1,1,5,0,2,Attack,true,
