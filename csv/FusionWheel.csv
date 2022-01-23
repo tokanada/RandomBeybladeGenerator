@@ -1,4 +1,4 @@
-Name,Weight (g),Quantity,Attack,Defense,Stamina,Class,Mode Change,Modes,Requires specific Ering,Required Ering,Synergies,Spin Direction,Generation,Clone,Special Conditons
+Name,Weight,Quantity,Attack,Defense,Stamina,Type,isModeChanging,Modes,HasSpecificEnergyRing,RequiredEnergyRing,Synergies,SpinDirection,Generation,Clone,SpecialConditons
 Flame,27,1,0,0,4,Stamina,false,,false,,,Right,Classic SM,true,
 Galaxy,29,1,4,1,0,Attack,false,,false,,,Right,Classic SM,true,
 Storm,30,1,4,1,0,Attack,false,,false,,,Right,Classic SM,false,

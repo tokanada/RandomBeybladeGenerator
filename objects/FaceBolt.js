@@ -9,3 +9,5 @@ function FaceBolt(material, name, weight, quantity, attack, stamina, defense, ty
     this.type = type;
 
 }
+
+module.exports = { FaceBolt };

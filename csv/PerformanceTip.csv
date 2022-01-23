@@ -1,4 +1,4 @@
-Name,Full Name,Weight(g),Quantity,Attack,Defense,Stamina,Class,Custom,Notes
+Name,FullName,Weight,Quantity,Attack,Defense,Stamina,Type,Custom,Notes
 B,Ball,1,6,1,2,3,Defense,true,
 CS,Coated Spike,1,2,2,3,3,Defense,true,
 RB,Rubber Ball,1,2,2,5,1,Defense,true,

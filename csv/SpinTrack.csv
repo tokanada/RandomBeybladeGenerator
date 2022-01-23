@@ -1,4 +1,4 @@
-Name,Full Name,Height,Quantity,Weight(g),Attack,Defense,Stamina,Class,Mode Changing,Modes,Synergies,Generation ,Custom,Accepts Tip,Notes,Special Conditions
+Name,FullName,Height,Quantity,Weight,Attack,Defense,Stamina,Type,isModeChanging,Modes,Synergies,Generation,Custom,AcceptsTip,Notes,SpecialConditions
 W105,Wing 105,105,2,1,2,1,0,Attack,false,,,Classic,false,true,,
 D125,Defense 125,125,2,2,2,2,1,Attack,false,,,Classic,false,true,,
 T125,Tornado 125,125,1,2,2,2,1,Attack,false,,,Classic,false,true,,

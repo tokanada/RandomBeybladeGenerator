@@ -1,4 +1,4 @@
-Material,Name,Weight(g),Quantity,Attack,Stamina,Defense,Type
+Material,Name,Weight,Quantity,Attack,Stamina,Defense,Type
 Metal,MFB,8,8,2,1,2,"Attack,Defense"
 Plastic,PFB,1,14,1,2,1,Stamina
 Custom,PFB,1,7,1,2,1,Stamina

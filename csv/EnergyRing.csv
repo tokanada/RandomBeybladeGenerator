@@ -1,4 +1,4 @@
-Name,Weight(g),Quantity,Attack,Defense,Stamina,Class,Mode Change,Modes,Requires Specific Fusion,Required Fusion,Synergies,Spin Direction,Generation,Clone,Notes
+Name,Weight,Quantity,Attack,Defense,Stamina,Type,isModeChanging,Modes,HasSpecificFusion,RequiredFusion,Synergies,SpinDirection,Generation,Clone,Notes
 Quetzalcoatl,2,1,0,1,1,Stamina,false,,false,,Death,"Left,Right",4D,true,
 Perseus,2,1,1,1,0,"Attack,Defense,Stamina",true,"Counter,Defense",true,Gravity,Gravity,"Left,Right",Classic SM,true,Only works with Gravity Fusion Wheel
 Pegasus III,2,1,1,0,1,"Attack,Defense,Stamina",false,,false,,"Storm,Galaxy,Big Bang","Left,Right",4D,true,
